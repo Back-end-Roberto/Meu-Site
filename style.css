@@ -16,7 +16,6 @@ header
 
     {
         background-color: black;
-        color: white;
         text-align: center;
     }
 
@@ -25,17 +24,27 @@ header h1
     {
         padding-top: 50px;
         font-variant: small-caps;
+        color: rgb(76, 124, 255);
+    }
+
+header h2
+
+    {
+        padding-top: 50px;
+        font-variant: small-caps;
+        color: rgb(213, 76, 255);
     }
 
 header > p
 
     {
         padding-bottom: 50px;
+        color: rgb(218, 215, 215);
     }
 
 a 
     {
-        color: white;
+        color: rgb(218, 215, 215);
         text-decoration: none;
         font-weight: bolder;
     }
@@ -51,6 +60,6 @@ footer
     {
         background-color: black;
         text-align: center;
-        color: white;
+        color: rgb(218, 215, 215);
         padding: 10px;
     }
