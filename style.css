@@ -9,7 +9,8 @@ html, body
 
     {
         min-height: 100vh;
-        background-color: rgb(80, 70, 70);
+        background-color: rgb(0, 0, 0);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
 header
@@ -17,28 +18,31 @@ header
     {
         background-color: black;
         text-align: center;
+        
     }
 
-header h1
+h1
 
     {
         padding-top: 50px;
         font-variant: small-caps;
-        color: rgb(76, 124, 255);
+        color: rgba(20, 231, 231, 0.897);
     }
 
-header h2
+h2
 
     {
-        padding-top: 50px;
-        font-variant: small-caps;
-        color: rgb(213, 76, 255);
+        padding-top: 30px;
+        font-size: medium;
+        font-variant: initial;
+        color: rgb(90, 50, 238);
     }
 
-header > p
+p
 
     {
         padding-bottom: 50px;
+        font-size: medium;
         color: rgb(218, 215, 215);
     }
 
@@ -60,6 +64,109 @@ footer
     {
         background-color: black;
         text-align: center;
-        color: rgb(218, 215, 215);
+        color: rgb(76, 124, 255);
         padding: 10px;
     }
+
+    footer > p
+    {
+        color: #da16af;
+        font-size: large;
+        text-transform: capitalize;
+        text-shadow: 1px 1px #0595e9;
+    }
+
+section
+
+    {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-size: 1.5vw;
+
+    }
+
+section.normal
+    {
+        background-color: black;
+        text-align: center ;
+    }
+
+section#img01
+    {
+        background-image: url("imagens/foto.jpg");
+        background-position: right center;
+    }
+
+
+
+section.imagem2
+{
+    
+    background-image: url("imagens/logo.jpg");
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+      
+    
+}
+
+section.imagem2 > p 
+{
+    text-align: center;
+    padding-top: 350px;
+    padding-right: 40px;
+    font-weight: 500;
+    color: #0595e9;
+    
+}   
+
+
+section.imagem > p
+{
+    display: inline-block;
+    padding: 30px;
+    background-color: rgba(51, 51, 51, 0.664);
+    text-indent: 30px;
+    font-weight: 500;
+}
+
+
+
+
+header
+{
+    background-image: url("imagens/head.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stylebut 
+
+{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #66d7fa;
+    border-radius: 10px;
+    background-color: rgb(212, 19, 203);
+    
+  }
+  
+  .stylebut:hover {
+    color: #da16af;
+    background-color: rgb(14, 222, 230);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgb(255 255 255 / 60%),
+      inset 2px 2px 3px rgb(0 0 0 / 60%);
+  }
