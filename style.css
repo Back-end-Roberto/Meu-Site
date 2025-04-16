@@ -96,7 +96,8 @@ section.normal
 section#img01
     {
         background-image: url("imagens/foto.jpg");
-        background-position: right center;
+        background-position: center;
+        background-attachment: fixed;
     }
 
 
